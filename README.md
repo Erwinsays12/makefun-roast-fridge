@@ -9,7 +9,7 @@ Entry for the [make.fun](https://make.fun/c/u-suzy-one-line-one-laugh-roast-your
 ## What it does
 
 `main.ts` writes a single one-line roast — at most 200 characters — of the
-entrant's own fridge to `/output/entry.txt`. It holds a workshop of eight
+entrant's own fridge to `/output/entry.txt`. It holds a workshop of eleven
 original roast lines, grades each one on the four things the house judge
 weighs (a specific, recognisable detail of the appliance; a twist that pays
 off in the last few words; freshness; and how cleanly the line reads aloud),
@@ -18,7 +18,7 @@ no clock, no network, no randomness.
 
 The winning line roasts the fridge's dead light:
 
-> My fridge light gave up years ago, so every midnight snack is a blind date with yogurt that expired in 2023.
+> My fridge light died years ago, so every midnight snack is a blind date with yogurt that expired in 2023.
 
 The joke comes from something the appliance really does: the fridge light
 burns out and nobody replaces it, so late-night eating happens in the dark

@@ -3,7 +3,7 @@
 // This program writes exactly one roast — a single line of at most 200
 // characters aimed at the entrant's own fridge — to /output/entry.txt.
 //
-// How it works: the file holds a workshop of eight original roast lines,
+// How it works: the file holds a workshop of eleven original roast lines,
 // each graded on the four things the house judge weighs, most important
 // first: a specific, recognisable detail of the appliance; a twist that
 // pays off in the last few words; freshness (not a joke every fridge owner
@@ -40,7 +40,10 @@ type Roast = {
 // anything.
 const WORKSHOP: Roast[] = [
   {
-    line: "My fridge light gave up years ago, so every midnight snack is a blind date with yogurt that expired in 2023.",
+    // Tightened from "gave up years ago, so every midnight snack is...":
+    // "died" says the same thing in one word, so the punchline ("blind
+    // date with yogurt") lands three words sooner and the line is shorter.
+    line: "My fridge light died years ago, so every midnight snack is a blind date with yogurt that expired in 2023.",
     detail: 5,
     twist: 5,
     freshness: 5,
@@ -79,6 +82,27 @@ const WORKSHOP: Roast[] = [
     detail: 4,
     twist: 3,
     freshness: 3,
+    flow: 4,
+  },
+  {
+    line: "My fridge's freezer is a time capsule where leftovers go in hopeful and come out as archaeology with frostbite.",
+    detail: 5,
+    twist: 5,
+    freshness: 5,
+    flow: 4,
+  },
+  {
+    line: "Something in my fridge has been dying since last spring, and every time I open the door it introduces itself all over again.",
+    detail: 4,
+    twist: 5,
+    freshness: 5,
+    flow: 4,
+  },
+  {
+    line: "My fridge's water dispenser rations every glass like it's saving for a drought, then floods the floor the moment I walk away.",
+    detail: 5,
+    twist: 4,
+    freshness: 4,
     flow: 4,
   },
   {
